@@ -1,0 +1,49 @@
+/* estilos para colores */
+.colores{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #F0720A;
+}
+
+.rgb{
+    color: rgb(120, 100, 300);
+}
+
+.rgba{
+    color: rgba(red, green, blue, alpha);
+}
+
+/* .fondos{ 
+    background-color: blue;
+    background-image: url("");
+    background-position: center center;
+}*/
+
+.fondo-interno{
+    /* background-image: ("imagenes/color.jpg"); */
+    background-color: blue;
+    background-position: left bottom;
+}
+
+/* tamaños */
+.ancho{
+    background-color: green;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px; */
+    margin: 10px 20px;
+}

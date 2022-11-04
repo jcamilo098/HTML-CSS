@@ -1,0 +1,7 @@
+/* font-size tamaño de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Silkscreen&display=swap');
+html{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: medium;
+    font-weight: 700px;
+}

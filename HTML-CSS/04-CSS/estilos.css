@@ -1,0 +1,23 @@
+/* *sirve para aplicar a todos los estilos */
+*{
+color: salmon;
+}
+
+/*  */
+h1{
+    color:aqua
+}
+
+p{
+    color: firebrick;
+}
+
+
+*.warning{
+    color: green;
+}
+
+/*text-decoration: tipo de letra */
+.autor, .fecha, .ciudad{
+    text-decoration: underline;
+}
