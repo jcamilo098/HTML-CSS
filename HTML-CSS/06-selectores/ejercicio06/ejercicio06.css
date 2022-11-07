@@ -1,7 +1,12 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .boton::before{
     content: "Pasa por encima";
-    font-size: small;
-    right: auto;
 }
 
 .boton:hover{
@@ -9,17 +14,7 @@
     background-color: green;
 }
 
-.boton::after{
+.boton:hover::before{
     content:"¡Hecho!";
-    opacity: 0;
 }
 
-.boton:hover ::before{
-    transform: translate(-50% , -50%) scale(3);
-    opacity: 0;
-}
-
-.boton:hover::after{
-    transform: translate(-50% , -50%) scale(1);
-    opacity: 0;
-}
