@@ -1,0 +1,66 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*  */
+.input[type="password"]{
+    color: red;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    outline: none;
+    padding: 5px;
+    color: #5f5f5f;
+}
+
+.input-moderno::placeholder{
+    color: #c2c2c2;
+}
+
+.input-moderno:focus{
+    border-bottom: 1px solid #5f5f5f;
+/* cuando esta con el enfoque en este input , se puede trabajar en sus estilos */
+}
+
+.input-background{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: white;
+}
+
+.input-background::placeholder{
+    color: gray;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url("/Imagenes/buscar.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+textarea{
+    /* resize permite ampliarlo vertical y horizontalmente */
+    resize: both;
+}
+
+select{
+    width: 100%;
+    height: 15px;
+    background-color: #ccc;
+}
+
